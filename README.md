@@ -1,8 +1,16 @@
 <!-- Global color system: black #08080D, white #FFFFFF, purple #8B35FF -->
 
-<div align="center" style="padding:24px 0 12px;">
+<div align="center" style="padding:16px 0 8px;">
 
-<img src="https://github-readme-ads.vercel.app/1000.png" width="760" alt="Keith Will - Hero Banner" />
+<img src="banner.png" width="100%" alt="Keith Will - Banner" />
+
+<br/>
+
+# Keith Will
+
+**Creative Technologist · Product Designer · Full-Stack Developer**
+
+_Imagine it → Design it → Build it → Ship it._
 
 </div>
 
@@ -10,61 +18,44 @@
 
 <table>
 <tr>
-<td width="34%" valign="top">
+<td width="30%" valign="top">
 
 <!-- ============ PROFILE SIDEBAR ============ -->
-<div style="background:rgba(139,53,255,0.05);border:1px solid rgba(139,53,255,0.25);border-radius:14px;padding:24px;">
+<div style="background:rgba(139,53,255,0.06);border:1px solid rgba(139,53,255,0.28);border-radius:14px;padding:22px;">
 
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/000000?v=4" width="128" height="128" alt="Keith Will" style="border-radius:50%;border:3px solid #8B35FF;box-shadow:0 0 18px rgba(139,53,255,0.45);" />
+<img src="https://avatars.githubusercontent.com/u/000000?v=4" width="112" height="112" alt="Keith Will" style="border-radius:50%;border:3px solid #8B35FF;box-shadow:0 0 18px rgba(139,53,255,0.45);" />
 
-<h2 style="margin:18px 0 4px;">Keith Will</h2>
+<h2 style="margin:14px 0 4px;">Keith Will</h2>
 
-<p style="color:#8B35FF;font-weight:600;margin:0 0 14px;">@Keith96-boop</p>
+<p style="color:#8B35FF;font-weight:600;margin:0 0 12px;">@Keith96-boop</p>
 
-<p style="color:#e5e5f0;line-height:1.5;margin:0 0 14px;">
+<p style="color:#e5e5f0;line-height:1.5;margin:0 0 12px;font-size:14px;">
 Creative Technologist &amp; Product Builder working at the intersection of design and software.
 I ship real products end-to-end — from rough concept to polished, deployed experience.
 </p>
 
-<div style="background:#0f0f1a;border:1px solid rgba(139,53,255,0.25);border-radius:8px;padding:10px 12px;margin-bottom:14px;font-size:14px;color:#e5e5f0;line-height:1.7;">
-📍 Kenya<br/>
-🕐 13:59 UTC +03:00
+<div style="background:#0f0f1a;border:1px solid rgba(139,53,255,0.25);border-radius:8px;padding:10px 12px;margin-bottom:12px;font-size:13px;color:#cfcfe0;line-height:1.8;">
+Kenya<br/>
+GMT +3
 </div>
 
 <!-- Replace each "#" below with a real link before publishing. -->
-<p style="font-size:14px;color:#cfcfe0;line-height:2;margin:0;">
-<img src="https://img.shields.io/badge/Gmail-D93025?style=flat-square&logo=gmail&logoColor=white" alt="" height="18" />
-<a href="#" style="color:#e5e5f0;">keith@wil.dev</a><br/>
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="" height="18" />
-<a href="#" style="color:#e5e5f0;">linkedin.com/in/keith-will</a>
+<p style="font-size:13px;color:#cfcfe0;line-height:2;margin:0;">
+<img src="https://img.shields.io/badge/Gmail-0f0f1a?style=flat-square&logo=gmail&logoColor=8b35ff&labelColor=0f0f1a" alt="" height="18" />
+<a href="#" style="color:#e5e5f0;">your.email@example.com</a><br/>
+<img src="https://img.shields.io/badge/LinkedIn-0f0f1a?style=flat-square&logo=linkedin&logoColor=8b35ff&labelColor=0f0f1a" alt="" height="18" />
+<a href="#" style="color:#e5e5f0;">linkedin.com/in/yourhandle</a>
 </p>
 
 </div>
 
-<!-- ACHIEVEMENTS -->
-<div style="margin-top:18px;">
-<h4 style="color:#8B35FF;margin:0 0 10px;font-size:15px;">Achievements</h4>
-
-<div style="display:flex;flex-wrap:wrap;gap:8px;">
-
-<img src="https://img.shields.io/static/v1?label=Creator&message=Shipped%20Real%20Products&color=8B35FF&labelColor=0f0f1a&style=for-the-badge&logo=medal&logoColor=white" alt="Creator" />
-
-<img src="https://img.shields.io/static/v1?label=Designer&message=UI&UX&color=8B35FF&labelColor=0f0f1a&style=for-the-badge&logo=figma&logoColor=white" alt="Designer" />
-
-<img src="https://img.shields.io/static/v1?label=Engineer&message=Full-Stack&color=8B35FF&labelColor=0f0f1a&style=for-the-badge&logo=github&logoColor=white" alt="Engineer" />
-
-<img src="https://img.shields.io/static/v1?label=Product&message=End-to-End&color=8B35FF&labelColor=0f0f1a&style=for-the-badge&logo=rocket&logoColor=white" alt="Product" />
-
-</div>
-</div>
-
 <!-- HIGHLIGHTS -->
-<div style="margin-top:18px;">
-<h4 style="color:#8B35FF;margin:0 0 10px;font-size:15px;">Highlights</h4>
+<div style="margin-top:16px;">
+<h4 style="color:#8B35FF;margin:0 0 8px;font-size:15px;">Highlights</h4>
 
-<ul style="color:#e5e5f0;line-height:1.9;margin:0;padding-left:18px;font-size:14px;">
+<ul style="color:#e5e5f0;line-height:1.85;margin:0;padding-left:18px;font-size:13px;">
 <li>Creative technologist, designer &amp; full-stack developer</li>
 <li>Ships real products from concept to deployment</li>
 <li>AI, automation &amp; systems that integrate with real-world APIs</li>
@@ -75,37 +66,37 @@ I ship real products end-to-end — from rough concept to polished, deployed exp
 
 </div>
 
-<!-- ============ CLOSING SIDEBAR PANEL ============ -->
-<div style="background:rgba(139,53,255,0.05);border:1px solid rgba(139,53,255,0.25);border-radius:14px;padding:18px;margin-top:18px;text-align:center;">
+<!-- STATUS PILLS -->
+<div style="background:rgba(139,53,255,0.06);border:1px solid rgba(139,53,255,0.28);border-radius:14px;padding:16px;margin-top:14px;">
 
-<img src="https://img.shields.io/static/v1?label=Open%20to&message=Collaboration&color=0f0f1a&labelColor=8B35FF&style=for-the-badge&logo=handshake&logoColor=8B35FF&border=0" alt="Open to Collaboration" />
+<img src="https://img.shields.io/badge/Status-Open-to-Collaboration?style=for-the-badge&color=0f0f1a&labelColor=8b35ff&logo=handshake&logoColor=8b35ff&borderRadius=12" alt="Open to Collaboration" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/Status-Available-for-Freelance?style=for-the-badge&color=2c2c44&labelColor=0f0f1a&logo=circle&logoColor=22c55e" alt="Available" />
+<img src="https://img.shields.io/badge/Available-Freelance-Open?style=for-the-badge&color=2c2c44&labelColor=0f0f1a&logo=circle&logoColor=22c55e&borderRadius=12" alt="Freelance Open" />
 
 </div>
 
 </td>
 
-<td width="6%" valign="top"></td>
+<td width="4%" valign="top"></td>
 
-<td width="60%" valign="top">
+<td width="66%" valign="top">
 
-<!-- ============ HERO BANNER ============ -->
-<div style="background:linear-gradient(135deg,#0f0f1a 0%,#1a1030 100%);border:1px solid rgba(139,53,255,0.4);border-radius:14px;padding:26px 30px;box-shadow:0 0 24px rgba(139,53,255,0.18);">
+<!-- ============ HERO ============ -->
+<div style="background:linear-gradient(135deg,#0f0f1a 0%,#1a1030 100%);border:1px solid rgba(139,53,255,0.45);border-radius:14px;padding:22px 26px;box-shadow:0 0 24px rgba(139,53,255,0.18);">
 
-<h1 style="margin:0;font-size:34px;letter-spacing:0.5px;">KEITH <span style="color:#8B35FF;">WILL</span></h1>
+<h1 style="margin:0;font-size:30px;letter-spacing:0.5px;">KEITH <span style="color:#8B35FF;">WILL</span></h1>
 
-<p style="color:#e5e5f0;font-size:16px;margin:10px 0 0;">
+<p style="color:#e5e5f0;font-size:15px;margin:8px 0 0;">
 Creative Technologist <span style="color:#8B35FF;">·</span> Product Designer <span style="color:#8B35FF;">·</span> Full-Stack Developer
 </p>
 
-<div style="margin-top:16px;display:flex;flex-wrap:wrap;gap:8px;">
-<img src="https://img.shields.io/badge/Design-0f0f1a?style=flat-square&labelColor=8B35FF&logo=figma&logoColor=8B35FF" alt="Design" />
-<img src="https://img.shields.io/badge/Software-0f0f1a?style=flat-square&labelColor=8B35FF&logo=nodejs&logoColor=8B35FF" alt="Software" />
-<img src="https://img.shields.io/badge/AI-0f0f1a?style=flat-square&labelColor=8B35FF&logo=tensorflow&logoColor=8B35FF" alt="AI" />
-<img src="https://img.shields.io/badge/Automation-0f0f1a?style=flat-square&labelColor=8B35FF&logo=robotic&logoColor=8B35FF" alt="Automation" />
+<div style="margin-top:14px;display:flex;flex-wrap:wrap;gap:8px;">
+<img src="https://img.shields.io/badge/Design-0f0f1a?style=flat-square&labelColor=8b35ff&logo=figma&logoColor=8b35ff" alt="Design" />
+<img src="https://img.shields.io/badge/Software-0f0f1a?style=flat-square&labelColor=8b35ff&logo=nodejs&logoColor=8b35ff" alt="Software" />
+<img src="https://img.shields.io/badge/AI-0f0f1a?style=flat-square&labelColor=8b35ff&logo=tensorflow&logoColor=8b35ff" alt="AI" />
+<img src="https://img.shields.io/badge/Automation-0f0f1a?style=flat-square&labelColor=8b35ff&logo=robotic&logoColor=8b35ff" alt="Automation" />
 </div>
 
 </div>
@@ -113,7 +104,7 @@ Creative Technologist <span style="color:#8B35FF;">·</span> Product Designer <s
 <br/>
 
 <!-- ============ ABOUT ME ============ -->
-<div style="background:rgba(139,53,255,0.05);border:1px solid rgba(139,53,255,0.25);border-radius:14px;padding:22px;">
+<div style="background:rgba(139,53,255,0.06);border:1px solid rgba(139,53,255,0.28);border-radius:14px;padding:22px;">
 
 <h3 style="margin:0 0 14px;color:#8B35FF;font-size:18px;">About Me</h3>
 
@@ -142,7 +133,7 @@ Creative Technologist <span style="color:#8B35FF;">·</span> Product Designer <s
 <td width="8%"></td>
 <td width="34%" valign="top">
 
-<img src="https://picsum.photos/seed/keithwill/workspace/420/520" width="100%" alt="Keith's workspace" style="border-radius:10px;border:1px solid rgba(139,53,255,0.35);" />
+<img src="workspace.png" width="100%" alt="Keith's workspace" style="border-radius:10px;border:1px solid rgba(139,53,255,0.35);" />
 
 </td>
 </tr>
@@ -167,7 +158,7 @@ the one that solves the problem and feels right to use."
 <br/>
 
 <!-- ============ CONNECT WITH ME ============ -->
-<div style="background:rgba(139,53,255,0.05);border:1px solid rgba(139,53,255,0.25);border-radius:14px;padding:22px;">
+<div style="background:rgba(139,53,255,0.06);border:1px solid rgba(139,53,255,0.28);border-radius:14px;padding:22px;">
 
 <h3 style="margin:0 0 14px;color:#8B35FF;font-size:18px;">Connect With Me</h3>
 
@@ -195,7 +186,7 @@ Links update as my public profiles are finalized.
 <br/>
 
 <!-- ============ TECH STACK ============ -->
-<div style="background:rgba(139,53,255,0.05);border:1px solid rgba(139,53,255,0.25);border-radius:14px;padding:22px;">
+<div style="background:rgba(139,53,255,0.06);border:1px solid rgba(139,53,255,0.28);border-radius:14px;padding:22px;">
 
 <h3 style="margin:0 0 16px;color:#8B35FF;font-size:18px;">Tech Stack</h3>
 
@@ -272,7 +263,7 @@ Links update as my public profiles are finalized.
 <br/>
 
 <!-- ============ RECENT PROJECTS (auto-injected by workflow) ============ -->
-<div style="background:rgba(139,53,255,0.05);border:1px solid rgba(139,53,255,0.25);border-radius:14px;padding:22px;">
+<div style="background:rgba(139,53,255,0.06);border:1px solid rgba(139,53,255,0.28);border-radius:14px;padding:22px;">
 
 <h3 style="margin:0 0 14px;color:#8B35FF;font-size:18px;">Selected Work</h3>
 
@@ -321,52 +312,52 @@ _This block is auto-generated on every push and on a daily schedule. The first r
 
 <br/>
 
-<!-- ============ GITHUB ANALYTICS ============ -->
-<div style="background:rgba(139,53,255,0.05);border:1px solid rgba(139,53,255,0.25);border-radius:14px;padding:22px;">
+<!-- ============ GITHUB ANALYTICS (stats, streak, top-langs, activity graph) ============ -->
+<div style="background:rgba(139,53,255,0.06);border:1px solid rgba(139,53,255,0.28);border-radius:14px;padding:22px;">
 
 <h3 style="margin:0 0 14px;color:#8B35FF;font-size:18px;">GitHub Analytics</h3>
-
-<table>
-<tr>
-<td width="55%" valign="top">
 
 <img src="https://github-readme-stats.vercel.app/api?username=Keith96-boop&show_icons=true&title_color=8b35ff&text_color=ffffff&icon_color=8b35ff&bg_color=0f0f1a&border=8b35ff40&count_private=true&hide_border=true&show_edges=true&ring_color=8b35ff" alt="GitHub Stats" />
 
 <br/><br/>
 
+<table>
+<tr>
+<td width="48%" valign="top">
+
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Keith96-boop&layout=compact&langs_count=10&title_color=8b35ff&text_color=ffffff&bg_color=0f0f1a&border=8b35ff40&hide_border=true&custom=8b35ff" alt="Top Languages" />
 
 </td>
-<td width="6%"></td>
-<td width="39%" valign="top">
+<td width="4%"></td>
+<td width="48%" valign="top">
 
 <img src="https://streak-stats.dave.sh?username=Keith96-boop&theme=-,8b35ff,0f0f1a,8b35ff,8b35ff,8b35ff,-&border_radius=10px" alt="Contribution Streak" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Keith96-boop&theme=transparent&bg_color=0f0f1a&color=8b35ff&stroke=8b35ff&title_color=8b35ff" alt="Activity Graph" />
 
 </td>
 </tr>
 </table>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Keith96-boop&theme=transparent&bg_color=0f0f1a&color=8b35ff&stroke=8b35ff&title_color=8b35ff" alt="Activity Graph" />
 
 </div>
 
 <br/>
 
 <!-- ============ GITHUB TROPHIES ============ -->
-<div style="background:rgba(139,53,255,0.05);border:1px solid rgba(139,53,255,0.25);border-radius:14px;padding:22px;">
+<div style="background:rgba(139,53,255,0.06);border:1px solid rgba(139,53,255,0.28);border-radius:14px;padding:22px;">
 
 <h3 style="margin:0 0 14px;color:#8B35FF;font-size:18px;">GitHub Trophies</h3>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Keith96-boop&theme=onelight-bg:0f0f1a,fg-color:8b35ff&margin-top=16&margin-bottom=16&column=4&row=1&no-frame=true&no-bg=false&no-border=true&margin=8&props=true" alt="GitHub Trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=Keith96-boop&theme=onelight-bg:0f0f1a,fg-color:8b35ff&column=4&row=1&no-frame=true&no-bg=false&no-border=true&margin=8&props=true" alt="GitHub Trophies" />
 
 </div>
 
 <br/>
 
 <!-- ============ CLOSING ============ -->
-<div align="center" style="background:rgba(139,53,255,0.08);border:1px solid rgba(139,53,255,0.3);border-radius:14px;padding:22px;margin-top:6px;">
+<div align="center" style="background:rgba(139,53,255,0.08);border:1px solid rgba(139,53,255,0.32);border-radius:14px;padding:22px;margin-top:6px;">
 
 <p style="color:#e5e5f0;font-size:14px;line-height:1.7;margin:0;">
 _Thanks for stopping by. I'm building things that matter — and if you want to build something real, let's talk._
@@ -374,7 +365,7 @@ _Thanks for stopping by. I'm building things that matter — and if you want to 
 
 <br/>
 
-<a href="#" style="text-decoration:none;"><img src="https://img.shields.io/badge/Portfolio-0f0f1a?style=for-the-badge&logo=googlechrome&logoColor=8b35ff&labelColor=0f0f1a&border=8b35ff66&borderRadius=12" alt="Portfolio" /></a>
+<a href="#" style="text-decoration:none;"><img src="https://img.shields.io/badge/Portfolio-0f0f1a?style=for-the-badge&logo=googlechrome&logoColor=8b35ff&labelColor=0f0f1a&borderRadius=12" alt="Portfolio" /></a>
 
 </div>
 
