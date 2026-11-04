@@ -1,0 +1,47 @@
+<svg width="460" height="180" viewBox="0 0 460 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B07CFF"/>
+      <stop offset="100%" stop-color="#6C2BD9"/>
+    </linearGradient>
+  </defs>
+  <!-- gridlines -->
+  <line x1="44" y1="14"  x2="452" y2="14"  stroke="#2a1f44" stroke-width="1"/>
+  <line x1="44" y1="56"  x2="452" y2="56"  stroke="#2a1f44" stroke-width="1"/>
+  <line x1="44" y1="98"  x2="452" y2="98"  stroke="#2a1f44" stroke-width="1"/>
+  <line x1="44" y1="140" x2="452" y2="140" stroke="#3a2d5a" stroke-width="1"/>
+
+  <!-- y-axis labels -->
+  <text x="34" y="18"  fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial, sans-serif">100</text>
+  <text x="34" y="60"  fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial, sans-serif">50</text>
+  <text x="34" y="102" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial, sans-serif">25</text>
+  <text x="34" y="144" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial, sans-serif">0</text>
+
+  <!-- 10 months of bars. Bar width 28, gap 12. Heights proportional to a representative pattern (labeled as such in README). -->
+  <g fill="url(#barGrad)">
+    <rect x="52"  y="102" width="28" height="38"  rx="4"/>  <!-- Nov -->
+    <rect x="92"  y="90"  width="28" height="50"  rx="4"/>  <!-- Dec -->
+    <rect x="132" y="84"  width="28" height="56"  rx="4"/>  <!-- Jan -->
+    <rect x="172" y="70"  width="28" height="70"  rx="4"/>  <!-- Feb -->
+    <rect x="212" y="60"  width="28" height="80"  rx="4"/>  <!-- Mar -->
+    <rect x="252" y="44"  width="28" height="96"  rx="4"/>  <!-- Apr -->
+    <rect x="292" y="54"  width="28" height="86"  rx="4"/>  <!-- May -->
+    <rect x="332" y="48"  width="28" height="92"  rx="4"/>  <!-- Jun -->
+    <rect x="372" y="38"  width="28" height="102" rx="4"/>  <!-- Jul -->
+    <rect x="412" y="58"  width="28" height="82"  rx="4"/>  <!-- Aug -->
+  </g>
+
+  <!-- x-axis labels -->
+  <g fill="#8b949e" font-size="12" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif">
+    <text x="66"  y="160">Nov</text>
+    <text x="106" y="160">Dec</text>
+    <text x="146" y="160">Jan</text>
+    <text x="186" y="160">Feb</text>
+    <text x="226" y="160">Mar</text>
+    <text x="266" y="160">Apr</text>
+    <text x="306" y="160">May</text>
+    <text x="346" y="160">Jun</text>
+    <text x="386" y="160">Jul</text>
+    <text x="426" y="160">Aug</text>
+  </g>
+</svg>

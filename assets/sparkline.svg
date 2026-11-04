@@ -1,0 +1,20 @@
+<svg width="240" height="80" viewBox="0 0 240 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sparkFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B35FF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8B35FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sparkLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B07CFF"/>
+      <stop offset="100%" stop-color="#8B35FF"/>
+    </linearGradient>
+  </defs>
+  <!-- area -->
+  <polygon points="0,64 20,60 40,62 60,54 80,58 100,46 120,50 140,38 160,42 180,30 200,26 220,18 240,14 240,80 0,80"
+           fill="url(#sparkFill)"/>
+  <!-- line -->
+  <polyline points="0,64 20,60 40,62 60,54 80,58 100,46 120,50 140,38 160,42 180,30 200,26 220,18 240,14"
+            fill="none" stroke="url(#sparkLine)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- end dot -->
+  <circle cx="240" cy="14" r="3.5" fill="#B07CFF"/>
+</svg>
