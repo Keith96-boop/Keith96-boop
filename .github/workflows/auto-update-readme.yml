@@ -1,8 +1,11 @@
-# GitHub Actions workflow: auto-update the "Recent Projects" section of the profile README.
-# Runs on every push to main and on a daily schedule, so newly-pushed repositories
-# automatically appear in the README without editing it by hand.
+# GitHub Actions workflow: auto-update the profile README.
+# 1. Refreshes the "Recent Projects" block from your most recent public repos.
+# 2. Regenerates a static "commit activity" graph image and commits it into the
+#    repo, so the profile never depends on a flaky third-party graph service.
+#
+# Runs on every push to main, on a 24h schedule, and via manual dispatch.
 
-name: Auto-update profile README projects
+name: Auto-update profile README
 
 on:
   push:
@@ -25,8 +28,7 @@ jobs:
         run: |
           REPO_NAME="${{ github.repository }}"
           OWNER="${REPO_NAME%%/*}"
-          # Grab recently-pushed public repos, exclude the profile repo itself,
-          # and keep the 6 most recent as a compact JSON array.
+          # Keep the 6 most recently pushed public repos, excluding the profile repo.
           curl -s -H "Accept: application/vnd.github+json" \
             "https://api.github.com/users/${OWNER}/repos?per_page=30&sort=pushed&order=desc&type=public" \
             | jq -c "[ .[] | select(.name != \"Keith96-boop\") | .[name, description, html_url, language, stargazers_count] | .[0:6] ]" \
@@ -37,67 +39,90 @@ jobs:
         run: |
           node - <<'EOF'
           const fs = require('fs');
-          const repos = JSON.parse(fs.readFileSync('recent_repos.json', 'utf8'));
+          let repos = [];
+          try {
+            repos = JSON.parse(fs.readFileSync('recent_repos.json', 'utf8'));
+          } catch (e) {
+            console.warn('Could not parse recent_repos.json; using empty list.');
+          }
+
           const markerStart = '<!-- AUTO:RECENT:START -->';
           const markerEnd = '<!-- AUTO:RECENT:END -->';
 
-          function badge(text) {
-            const safe = text.replace(/&/g, '&amp;').replace(/</g, '&lt;');
-            return `<span style="display:inline-block;padding:2px 8px;margin:2px 4px 2px 0;font-size:12px;font-weight:600;color:#89b4fa;background:#1a1e2e;border:1px solid #2a3141;border-radius:6px;">${safe}</span>`;
+          function cell(r) {
+            const name = r.name || 'Untitled';
+            const desc = r.description || 'No description available.';
+            const lang = r.language || 'N/A';
+            const stars = r.stargazers_count;
+            return `<td align="center" width="33%">
+
+<div style="background:#010409;border:1px solid #30363d;border-radius:14px;padding:20px;">
+
+<h3 style="margin:0 0 8px;font-size:20px;color:#ffffff;">${name}</h3>
+
+<p style="color:#c9d1d9;font-size:14px;line-height:1.6;margin:0 0 14px;">${desc}</p>
+
+<p style="margin:0;font-size:12px;"><code style="background:#30363d;color:#ffffff;padding:3px 9px;border-radius:7px;">${lang}</code> &nbsp; &star; ${stars}</p>
+
+</div>
+
+</td>`;
           }
 
           let rows = [];
           for (let i = 0; i < repos.length; i += 3) {
-            const cells = repos.slice(i, i + 3).map(r => `
-<td align="center" width="33%">
-
-### ${badge(r.name)}
-
-${r.description || 'No description available.'}
-
-\`${r.language || 'N/A'}\` ${r.stargazers_count} stars
-
-</td>`).join('\n');
-            rows.push(`<tr>${cells}\n</tr>`);
+            rows.push(`<tr>\n${repos.slice(i, i + 3).map(cell).join('\n')}</tr>`);
           }
 
-          const table = `
-<table>
-${rows.join('\n')}
-</table>`;
+          const table = rows.length ? `<table>\n${rows.join('\n')}\n</table>` : '_No public projects found yet._';
 
           const section = [
             markerStart,
-            '',
-            '## Recent Projects',
-            '',
-            '_Automatically generated from my most recently pushed public repositories. Updates on every push and on a daily schedule._',
             '',
             table,
             '',
             markerEnd,
           ].join('\n');
 
-          // Insert or replace the marked block in README.md
           let readme = fs.readFileSync('README.md', 'utf8');
           const re = new RegExp(markerStart.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&') + '[\\s\\S]*?' + markerEnd.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&'));
           if (re.test(readme)) {
             readme = readme.replace(re, section);
           } else {
-            // Append before the final closing <div align="center">, or at end of file
-            readme = readme.replace(markerStart, '').replace(markerEnd, '');
             readme = readme.trimEnd() + '\n\n' + section + '\n';
           }
           fs.writeFileSync('README.md', readme);
           EOF
 
+      - name: Generate commit activity graph image (self-hosted, static)
+        run: |
+          # Use a reliable, widely-used commit-activity service; download the PNG into
+          # the repo so the profile never depends on the service being up at view time.
+          OUT="assets/commit_activity.png"
+          mkdir -p assets
+          if curl -sL -o "$OUT" \
+              "https://gh-graphs.vercel.app/commit-graph?username=${{ github.repository_owner }}&theme=react-dark&color=ffffff&bg_color=010409&line=30363d"; then
+            if [ -s "$OUT" ]; then
+              echo "Wrote $OUT ($(stat -c%s "$OUT") bytes)."
+            else
+              echo "Activity service returned an empty file; leaving any existing image in place."
+            fi
+          else
+            echo "Activity service unavailable; leaving any existing image in place."
+          fi
+
       - name: Commit and push changes
         run: |
-          if git diff --quiet README.md; then
-            echo "README.md already up to date."
+          if git diff --quiet README.md && ! git diff --cached --quiet assets 2>/dev/null; then
+            :
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git add assets/commit_activity.png 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
           else
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md
-            git commit -m "chore: auto-update Recent Projects in README"
+            git commit -m "chore: auto-update Recent Projects and commit activity graph"
             git push
+          fi
