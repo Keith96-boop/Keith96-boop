@@ -97,10 +97,10 @@ I'm not interested in building demos. I'm interested in building <strong style="
 <td width="33%" valign="middle" align="right">
 
 <!-- Languages & Frontend -->
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:16px 18px;margin:12px 0;">
+<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-left:4px solid #8B35FF;border-radius:14px;padding:16px 18px;margin:12px 0;box-shadow:0 0 14px rgba(139,53,255,0.12);">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
-<strong style="color:#ffffff;font-size:14px;">Languages &amp; Frontend</strong>
-<span style="background:rgba(139,53,255,0.20);color:#c9a8ff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">35%</span>
+<strong style="color:#B07CFF;font-size:14px;">Languages &amp; Frontend</strong>
+<span style="background:rgba(139,53,255,0.22);color:#c9a8ff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">35%</span>
 </div>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="34" alt="HTML5" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="34" alt="CSS3" />
@@ -111,10 +111,10 @@ I'm not interested in building demos. I'm interested in building <strong style="
 </div>
 
 <!-- Backend & Data -->
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:16px 18px;margin:12px 0;">
+<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-left:4px solid #2DD4BF;border-radius:14px;padding:16px 18px;margin:12px 0;box-shadow:0 0 14px rgba(45,212,191,0.12);">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
-<strong style="color:#ffffff;font-size:14px;">Backend &amp; Data</strong>
-<span style="background:rgba(139,53,255,0.20);color:#c9a8ff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">30%</span>
+<strong style="color:#5EEAD4;font-size:14px;">Backend &amp; Data</strong>
+<span style="background:rgba(45,212,191,0.18);color:#5EEAD4;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">30%</span>
 </div>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="34" alt="Node.js" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="34" alt="Express" />
@@ -123,10 +123,10 @@ I'm not interested in building demos. I'm interested in building <strong style="
 </div>
 
 <!-- Tools & Platforms -->
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:16px 18px;margin:12px 0;">
+<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-left:4px solid #3EA6FF;border-radius:14px;padding:16px 18px;margin:12px 0;box-shadow:0 0 14px rgba(62,166,255,0.12);">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
-<strong style="color:#ffffff;font-size:14px;">Tools &amp; Platforms</strong>
-<span style="background:rgba(139,53,255,0.20);color:#c9a8ff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">20%</span>
+<strong style="color:#9BD1FF;font-size:14px;">Tools &amp; Platforms</strong>
+<span style="background:rgba(62,166,255,0.18);color:#9BD1FF;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">20%</span>
 </div>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg" width="34" alt="Electron" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" width="34" alt="Vercel" />
@@ -145,10 +145,10 @@ I'm not interested in building demos. I'm interested in building <strong style="
 <td width="33%" valign="middle" align="left">
 
 <!-- Design -->
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:16px 18px;margin:12px 0;">
+<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-left:4px solid #F472B6;border-radius:14px;padding:16px 18px;margin:12px 0;box-shadow:0 0 14px rgba(244,114,182,0.12);">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
-<strong style="color:#ffffff;font-size:14px;">Design</strong>
-<span style="background:rgba(139,53,255,0.20);color:#c9a8ff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">10%</span>
+<strong style="color:#F9A8D4;font-size:14px;">Design</strong>
+<span style="background:rgba(244,114,182,0.18);color:#F9A8D4;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">10%</span>
 </div>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="34" alt="Figma" />
 <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/adobephotoshop.svg?color=31A8FF" width="34" alt="Photoshop" />
@@ -157,10 +157,10 @@ I'm not interested in building demos. I'm interested in building <strong style="
 </div>
 
 <!-- Others -->
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:16px 18px;margin:12px 0;">
+<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-left:4px solid #FBBF24;border-radius:14px;padding:16px 18px;margin:12px 0;box-shadow:0 0 14px rgba(251,191,36,0.12);">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
-<strong style="color:#ffffff;font-size:14px;">Others</strong>
-<span style="background:rgba(139,53,255,0.20);color:#c9a8ff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">5%</span>
+<strong style="color:#FDE68A;font-size:14px;">Others</strong>
+<span style="background:rgba(251,191,36,0.16);color:#FDE68A;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">5%</span>
 </div>
 <img src="assets/obs.svg" width="34" alt="OBS" />
 <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cloudinary.svg?color=3448C5" width="34" alt="Cloudinary" />
@@ -322,84 +322,84 @@ I'm not interested in building demos. I'm interested in building <strong style="
 _This block is auto-generated on every push and on a daily schedule. The first run fills in your 6 most recently pushed public repositories._
 <!-- AUTO:RECENT:END -->
 
-<table>
+<table style="width:100%;border-collapse:separate;border-spacing:14px;">
 <tr>
-<td width="33%" valign="top" align="center">
+<td width="33%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.40);border-radius:14px;padding:20px;">
+<div style="background:#010409;border:1px solid #8B35FF;border-top:3px solid #8B35FF;border-radius:14px;padding:20px;box-shadow:0 0 18px rgba(139,53,255,0.30);">
 
-<h3 style="margin:0 0 8px;font-size:20px;color:#FFFFFF;">Zyra</h3>
+<h3 style="margin:0 0 8px;font-size:20px;color:#B07CFF;">Zyra</h3>
 
 <p style="color:#c9d1d9;font-size:14px;line-height:1.6;margin:0 0 14px;">Social media management platform that automates and streamlines publishing workflows across multiple platforms.</p>
 
-<p style="margin:0;font-size:12px;"><code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Next.js</code> <code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Supabase</code> <code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Drizzle</code></p>
+<p style="margin:0;font-size:12px;"><code style="background:rgba(139,53,255,0.22);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Next.js</code> <code style="background:rgba(139,53,255,0.22);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Supabase</code> <code style="background:rgba(139,53,255,0.22);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Drizzle</code></p>
 
 </div>
 
 </td>
-<td width="33%" valign="top" align="center">
+<td width="33%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.40);border-radius:14px;padding:20px;">
+<div style="background:#010409;border:1px solid #2DD4BF;border-top:3px solid #2DD4BF;border-radius:14px;padding:20px;box-shadow:0 0 18px rgba(45,212,191,0.25);">
 
-<h3 style="margin:0 0 8px;font-size:20px;color:#FFFFFF;">LYRA</h3>
+<h3 style="margin:0 0 8px;font-size:20px;color:#5EEAD4;">LYRA</h3>
 
 <p style="color:#c9d1d9;font-size:14px;line-height:1.6;margin:0 0 14px;">A persistent desktop AI companion built around an animated 3D character, voice interaction, and deep computer integration.</p>
 
-<p style="margin:0;font-size:12px;"><code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Electron</code> <code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Three.js</code> <code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Node.js</code></p>
+<p style="margin:0;font-size:12px;"><code style="background:rgba(45,212,191,0.18);color:#5EEAD4;padding:3px 9px;border-radius:7px;">Electron</code> <code style="background:rgba(45,212,191,0.18);color:#5EEAD4;padding:3px 9px;border-radius:7px;">Three.js</code> <code style="background:rgba(45,212,191,0.18);color:#5EEAD4;padding:3px 9px;border-radius:7px;">Node.js</code></p>
 
 </div>
 
 </td>
-<td width="33%" valign="top" align="center">
+<td width="33%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.40);border-radius:14px;padding:20px;">
+<div style="background:#010409;border:1px solid #3EA6FF;border-top:3px solid #3EA6FF;border-radius:14px;padding:20px;box-shadow:0 0 18px rgba(62,166,255,0.25);">
 
-<h3 style="margin:0 0 8px;font-size:20px;color:#FFFFFF;">GhostSync</h3>
+<h3 style="margin:0 0 8px;font-size:20px;color:#9BD1FF;">GhostSync</h3>
 
 <p style="color:#c9d1d9;font-size:14px;line-height:1.6;margin:0 0 14px;">Full-stack web platform built around authentication, real-time communication, and modern application architecture.</p>
 
-<p style="margin:0;font-size:12px;"><code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">React</code> <code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Node.js</code> <code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">SQLite</code></p>
+<p style="margin:0;font-size:12px;"><code style="background:rgba(62,166,255,0.18);color:#9BD1FF;padding:3px 9px;border-radius:7px;">React</code> <code style="background:rgba(62,166,255,0.18);color:#9BD1FF;padding:3px 9px;border-radius:7px;">Node.js</code> <code style="background:rgba(62,166,255,0.18);color:#9BD1FF;padding:3px 9px;border-radius:7px;">SQLite</code></p>
 
 </div>
 
 </td>
 </tr>
 <tr>
-<td width="33%" valign="top" align="center" style="padding-top:18px;">
+<td width="33%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.40);border-radius:14px;padding:20px;">
+<div style="background:#010409;border:1px solid #FBBF24;border-top:3px solid #FBBF24;border-radius:14px;padding:20px;box-shadow:0 0 18px rgba(251,191,36,0.22);">
 
-<h3 style="margin:0 0 8px;font-size:20px;color:#FFFFFF;">Moon</h3>
+<h3 style="margin:0 0 8px;font-size:20px;color:#FDE68A;">Moon</h3>
 
 <p style="color:#c9d1d9;font-size:14px;line-height:1.6;margin:0 0 14px;">A technology and product ecosystem concept spanning custom hardware, software, branding, and security.</p>
 
-<p style="margin:0;font-size:12px;"><code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Full-stack</code> <code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Branding</code></p>
+<p style="margin:0;font-size:12px;"><code style="background:rgba(251,191,36,0.16);color:#FDE68A;padding:3px 9px;border-radius:7px;">Full-stack</code> <code style="background:rgba(251,191,36,0.16);color:#FDE68A;padding:3px 9px;border-radius:7px;">Branding</code></p>
 
 </div>
 
 </td>
-<td width="33%" valign="top" align="center" style="padding-top:18px;">
+<td width="33%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.40);border-radius:14px;padding:20px;">
+<div style="background:#010409;border:1px solid #F472B6;border-top:3px solid #F472B6;border-radius:14px;padding:20px;box-shadow:0 0 18px rgba(244,114,182,0.25);">
 
-<h3 style="margin:0 0 8px;font-size:20px;color:#FFFFFF;">Soostori POS</h3>
+<h3 style="margin:0 0 8px;font-size:20px;color:#F9A8D4;">Soostori POS</h3>
 
 <p style="color:#c9d1d9;font-size:14px;line-height:1.6;margin:0 0 14px;">A point-of-sale system concept designed around real-world business operations and communication needs.</p>
 
-<p style="margin:0;font-size:12px;"><code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Node.js</code> <code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">M-Pesa Daraja</code></p>
+<p style="margin:0;font-size:12px;"><code style="background:rgba(244,114,182,0.18);color:#F9A8D4;padding:3px 9px;border-radius:7px;">Node.js</code> <code style="background:rgba(244,114,182,0.18);color:#F9A8D4;padding:3px 9px;border-radius:7px;">M-Pesa Daraja</code></p>
 
 </div>
 
 </td>
-<td width="33%" valign="top" align="center" style="padding-top:18px;">
+<td width="33%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.40);border-radius:14px;padding:20px;">
+<div style="background:#010409;border:1px solid #4ADE80;border-top:3px solid #4ADE80;border-radius:14px;padding:20px;box-shadow:0 0 18px rgba(74,222,128,0.22);">
 
-<h3 style="margin:0 0 8px;font-size:20px;color:#FFFFFF;">Portfolio</h3>
+<h3 style="margin:0 0 8px;font-size:20px;color:#86EFAC;">Portfolio</h3>
 
 <p style="color:#c9d1d9;font-size:14px;line-height:1.6;margin:0 0 14px;">Personal portfolio and brand site built with modern design principles.</p>
 
-<p style="margin:0;font-size:12px;"><code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Next.js</code> <code style="background:rgba(139,53,255,0.20);color:#c9a8ff;padding:3px 9px;border-radius:7px;">Tailwind</code></p>
+<p style="margin:0;font-size:12px;"><code style="background:rgba(74,222,128,0.16);color:#86EFAC;padding:3px 9px;border-radius:7px;">Next.js</code> <code style="background:rgba(74,222,128,0.16);color:#86EFAC;padding:3px 9px;border-radius:7px;">Tailwind</code></p>
 
 </div>
 
