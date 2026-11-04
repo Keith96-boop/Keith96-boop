@@ -26,7 +26,7 @@ Creative Technologist &nbsp;Â·&nbsp; Product Designer &nbsp;Â·&nbsp; Full-St
 
 <div style="border:1px solid rgba(139,53,255,0.55);border-radius:18px;overflow:hidden;box-shadow:0 0 32px rgba(139,53,255,0.30);">
 
-<img src="banner.png" width="100%" alt="Keith Will - Banner" />
+<img src="banner-anim.gif" width="100%" alt="Keith Will - Animated Banner" />
 
 </div>
 
