@@ -112,8 +112,7 @@ Creative Technologist <span style="color:#8B35FF;">·</span> Product Designer <s
 <tr>
 <td width="58%" valign="top">
 
-<div style="background:#0f0f1a;border:1px solid rgba(139,53,255,0.35);border-radius:10px;padding:16px;font-family:Consolas,monospace;font-size:13px;color:#e5e5f0;line-height:1.7;overflow-x:auto;white-space:pre;">
-<span style="color:#8b9cf9">const</span> keith = {
+<pre style="background:#0f0f1a;border:1px solid rgba(139,53,255,0.35);border-radius:10px;padding:16px;font-family:Consolas,monospace;font-size:13px;color:#e5e5f0;line-height:1.7;overflow-x:auto;margin:0;"><span style="color:#8b9cf9">const</span> keith = {
   role: <span style="color:#bb9af7">"Creative Technologist"</span>,
   interests: [
     <span style="color:#bb9af7">"Product Design"</span>,
@@ -127,7 +126,7 @@ Creative Technologist <span style="color:#8B35FF;">·</span> Product Designer <s
   },
   approach: <span style="color:#bb9af7">"Imagine → Design → Build → Ship"</span>,
 };
-</div>
+</pre>
 
 </td>
 <td width="8%"></td>
