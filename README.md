@@ -3,11 +3,7 @@
 <!-- ============ 1. IDENTITY ============ -->
 <div align="center" style="padding:24px 0 8px;">
 
-<img src="https://avatars.githubusercontent.com/u/000000?v=4" width="132" height="132" alt="Keith Will" style="border-radius:50%;border:3px solid #8B35FF;box-shadow:0 0 24px rgba(139,53,255,0.45);" />
-
-<br/>
-
-<h1 style="margin:18px 0 6px;font-size:36px;letter-spacing:1px;color:#FFFFFF;">KEITH <span style="color:#8B35FF;">WILL</span></h1>
+<h1 style="margin:0 0 6px;font-size:36px;letter-spacing:1px;color:#FFFFFF;">KEITH <span style="color:#8B35FF;">WILL</span></h1>
 
 <p style="color:#c9d1d9;margin:0 0 18px;font-size:18px;line-height:1.5;">
 Creative Technologist &nbsp;Â·&nbsp; Product Designer &nbsp;Â·&nbsp; Full-Stack Developer
