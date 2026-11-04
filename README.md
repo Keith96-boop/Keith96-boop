@@ -1,4 +1,4 @@
-<!-- Theme: black #0D1117 · white #FFFFFF · purple accent #8B35FF · grey #30363D -->
+﻿<!-- Theme: black #0D1117 Â· white #FFFFFF Â· purple accent #8B35FF Â· grey #30363D -->
 
 <!-- ============ 1. IDENTITY ============ -->
 <div align="center" style="padding:24px 0 8px;">
@@ -10,7 +10,7 @@
 <h1 style="margin:18px 0 6px;font-size:36px;letter-spacing:1px;color:#FFFFFF;">KEITH <span style="color:#8B35FF;">WILL</span></h1>
 
 <p style="color:#c9d1d9;margin:0 0 18px;font-size:18px;line-height:1.5;">
-Creative Technologist &nbsp;·&nbsp; Product Designer &nbsp;·&nbsp; Full-Stack Developer
+Creative Technologist &nbsp;Â·&nbsp; Product Designer &nbsp;Â·&nbsp; Full-Stack Developer
 </p>
 
 <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:center;">
@@ -50,17 +50,17 @@ Creative Technologist &nbsp;·&nbsp; Product Designer &nbsp;·&nbsp; Full-Stack 
 <td width="56%" valign="top">
 
 <p style="color:#c9d1d9;font-size:16px;line-height:1.85;margin:0 0 16px;">
-I'm a <strong style="color:#8B35FF;">Creative Technologist</strong> and <strong style="color:#8B35FF;">Product Builder</strong> based in Kenya, working at the intersection of design and software. I take ideas from rough concept to fully-functional, visually polished digital products — handling both the interface people see and the systems running underneath.
+I'm a <strong style="color:#8B35FF;">Creative Technologist</strong> and <strong style="color:#8B35FF;">Product Builder</strong> based in Kenya, working at the intersection of design and software. I take ideas from rough concept to fully-functional, visually polished digital products â€” handling both the interface people see and the systems running underneath.
 </p>
 
 <p style="color:#c9d1d9;font-size:16px;line-height:1.85;margin:0 0 16px;">
-I'm not interested in building demos. I'm interested in building <strong style="color:#8B35FF;">real products</strong> — ambitious concepts actually engineered into something people open every day.
+I'm not interested in building demos. I'm interested in building <strong style="color:#8B35FF;">real products</strong> â€” ambitious concepts actually engineered into something people open every day.
 </p>
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.45);border-radius:12px;padding:16px 18px;font-family:Consolas,monospace;font-size:14px;color:#c9d1d9;line-height:1.9;">
+<div style="background:#010409;border:1px solid rgba(139,53,255,0.45);border-radius:14px;padding:16px 18px;font-family:Consolas,monospace;font-size:14px;color:#c9d1d9;line-height:1.9;">
 <span style="color:#8b949e">role</span>      <span style="color:#ffffff">Creative Technologist / Product Builder</span><br/>
-<span style="color:#8b949e">focus</span>     <span style="color:#ffffff">Design · Software · AI · Automation</span><br/>
-<span style="color:#8b949e">approach</span>  <span style="color:#ffffff">Imagine → Design → Build → Improve</span>
+<span style="color:#8b949e">focus</span>     <span style="color:#ffffff">Design Â· Software Â· AI Â· Automation</span><br/>
+<span style="color:#8b949e">approach</span>  <span style="color:#ffffff">Imagine â†’ Design â†’ Build â†’ Improve</span>
 </div>
 
 </td>
@@ -72,7 +72,7 @@ I'm not interested in building demos. I'm interested in building <strong style="
 <br/>
 
 <p style="font-style:italic;color:#8b949e;font-size:14px;line-height:1.6;margin:14px 0 0;">
-"Don't just build demos. Build the real product that people open every day — the one that solves the problem and feels right to use."
+"Don't just build demos. Build the real product that people open every day â€” the one that solves the problem and feels right to use."
 </p>
 
 </td>
@@ -194,7 +194,7 @@ I'm not interested in building demos. I'm interested in building <strong style="
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
 <span style="color:#8b949e;font-size:12px;font-weight:700;letter-spacing:1px;">TOTAL CONTRIBUTIONS</span>
 </div>
-<div style="color:#ffffff;font-size:28px;font-weight:700;">—</div>
+<div style="color:#ffffff;font-size:28px;font-weight:700;">â€”</div>
 <img src="assets/sparkline.svg" width="100%" alt="trend" />
 </div>
 
@@ -264,7 +264,7 @@ I'm not interested in building demos. I'm interested in building <strong style="
 <tr>
 <td width="40%" valign="top">
 
-<div style="color:#ffffff;font-size:42px;font-weight:700;line-height:1;">—</div>
+<div style="color:#ffffff;font-size:42px;font-weight:700;line-height:1;">â€”</div>
 <div style="color:#8b949e;font-size:13px;margin:6px 0 0;">day streak</div>
 <div style="color:#8b949e;font-size:13px;margin:14px 0 0;">Keep going!</div>
 
@@ -316,7 +316,7 @@ I'm not interested in building demos. I'm interested in building <strong style="
 <h2 style="margin:0 0 6px;font-size:26px;color:#FFFFFF;">Selected Work
 <span style="display:inline-block;width:44px;height:4px;background:#8B35FF;border-radius:2px;margin-left:12px;vertical-align:middle;"></span>
 </h2>
-<p style="color:#8b949e;font-size:15px;margin:0 0 24px;">Featured projects — a mix of shipped products, AI systems, and platform work.</p>
+<p style="color:#8b949e;font-size:15px;margin:0 0 24px;">Featured projects â€” a mix of shipped products, AI systems, and platform work.</p>
 
 <!-- AUTO:RECENT:START -->
 _This block is auto-generated on every push and on a daily schedule. The first run fills in your 6 most recently pushed public repositories._
@@ -442,7 +442,7 @@ _This block is auto-generated on every push and on a daily schedule. The first r
 <div align="center" style="background:#010409;border:1px solid rgba(139,53,255,0.50);border-radius:18px;padding:30px;margin:0 24px;box-shadow:0 0 24px rgba(139,53,255,0.18);">
 
 <p style="color:#FFFFFF;font-size:16px;line-height:1.7;margin:0 0 16px;">
-_Thanks for stopping by. I'm building things that matter — and if you want to build something real, let's talk._
+_Thanks for stopping by. I'm building things that matter â€” and if you want to build something real, let's talk._
 </p>
 
 <a href="#" style="text-decoration:none;"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=googlechrome&logoColor=8b35ff&labelColor=8b35ff&borderRadius=12" alt="Portfolio" /></a>
