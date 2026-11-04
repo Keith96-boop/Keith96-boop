@@ -39,7 +39,7 @@ Creative Technologist &nbsp;·&nbsp; Product Designer &nbsp;·&nbsp; Full-Stack 
 <br/>
 
 <!-- ============ 3. ABOUT ============ -->
-<div style="background:#0D1117;border:1px solid #30363D;border-radius:18px;padding:34px 38px;margin:0 24px;">
+<div style="background:#0D1117;border:1px solid rgba(139,53,255,0.30);border-radius:18px;padding:34px 38px;margin:0 24px;box-shadow:0 0 24px rgba(139,53,255,0.10);">
 
 <h2 style="margin:0 0 20px;font-size:26px;color:#FFFFFF;">About Me
 <span style="display:inline-block;width:44px;height:4px;background:#8B35FF;border-radius:2px;margin-left:12px;vertical-align:middle;"></span>
@@ -83,22 +83,32 @@ I'm not interested in building demos. I'm interested in building <strong style="
 
 <br/>
 
-<!-- ============ 4. TECH STACK (donut + surrounding categories) ============ -->
+<!-- ============ 4. TECH STACK ============ -->
 <div style="background:#0D1117;border:1px solid rgba(139,53,255,0.40);border-radius:18px;padding:34px 38px;margin:0 24px;box-shadow:0 0 30px rgba(139,53,255,0.14);">
 
 <h2 style="margin:0 0 6px;font-size:26px;color:#FFFFFF;">Tech Stack
 <span style="display:inline-block;width:44px;height:4px;background:#8B35FF;border-radius:2px;margin-left:12px;vertical-align:middle;"></span>
 </h2>
-<p style="color:#8b949e;font-size:15px;margin:0 0 24px;">Technologies I work with and their usage</p>
+<p style="color:#8b949e;font-size:15px;margin:0 0 24px;">Technologies I work with — each category shown in its own card, connected to its share of the donut</p>
 
-<!-- Donut chart centered; categories arranged around it -->
-<table style="width:100%;border-collapse:separate;border-spacing:0 0;">
+<!-- Donut chart centered with arrows pointing from category cards -->
+<div style="text-align:center;">
+
+<img src="assets/tech-donut.svg" width="100%" style="max-width:640px;" alt="My Tech Stack donut chart" />
+
+</div>
+
+<br/>
+
+<!-- Category cards, one per category -->
+<table style="width:100%;border-collapse:separate;border-spacing:14px;">
 <tr>
-<td width="33%" valign="middle" align="right">
 
-<!-- Languages & Frontend -->
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:16px 18px;margin:12px 0;">
-<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+<td width="33%" valign="top">
+
+<!-- Languages & Frontend card -->
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:18px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
 <strong style="color:#ffffff;font-size:14px;">Languages &amp; Frontend</strong>
 <span style="background:rgba(139,53,255,0.20);color:#c9a8ff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">35%</span>
 </div>
@@ -110,9 +120,13 @@ I'm not interested in building demos. I'm interested in building <strong style="
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="34" alt="Next.js" />
 </div>
 
-<!-- Backend & Data -->
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:16px 18px;margin:12px 0;">
-<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+</td>
+
+<td width="33%" valign="top">
+
+<!-- Backend & Data card -->
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:18px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
 <strong style="color:#ffffff;font-size:14px;">Backend &amp; Data</strong>
 <span style="background:rgba(139,53,255,0.20);color:#c9a8ff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">30%</span>
 </div>
@@ -122,9 +136,13 @@ I'm not interested in building demos. I'm interested in building <strong style="
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" width="34" alt="SQLite" />
 </div>
 
-<!-- Tools & Platforms -->
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:16px 18px;margin:12px 0;">
-<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+</td>
+
+<td width="33%" valign="top">
+
+<!-- Tools & Platforms card -->
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:18px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
 <strong style="color:#ffffff;font-size:14px;">Tools &amp; Platforms</strong>
 <span style="background:rgba(139,53,255,0.20);color:#c9a8ff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">20%</span>
 </div>
@@ -136,17 +154,14 @@ I'm not interested in building demos. I'm interested in building <strong style="
 
 </td>
 
-<td width="34%" valign="middle" align="center">
+</tr>
+<tr>
 
-<img src="assets/tech-donut.svg" width="300" alt="My Tech Stack donut chart" />
+<td width="33%" valign="top">
 
-</td>
-
-<td width="33%" valign="middle" align="left">
-
-<!-- Design -->
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:16px 18px;margin:12px 0;">
-<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+<!-- Design card -->
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:18px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
 <strong style="color:#ffffff;font-size:14px;">Design</strong>
 <span style="background:rgba(139,53,255,0.20);color:#c9a8ff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">10%</span>
 </div>
@@ -156,9 +171,13 @@ I'm not interested in building demos. I'm interested in building <strong style="
 <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/adobepremierepro.svg?color=9999FF" width="34" alt="Premiere Pro" />
 </div>
 
-<!-- Others -->
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:16px 18px;margin:12px 0;">
-<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+</td>
+
+<td width="33%" valign="top">
+
+<!-- Others card -->
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:18px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
 <strong style="color:#ffffff;font-size:14px;">Others</strong>
 <span style="background:rgba(139,53,255,0.20);color:#c9a8ff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">5%</span>
 </div>
@@ -168,17 +187,20 @@ I'm not interested in building demos. I'm interested in building <strong style="
 </div>
 
 </td>
+
+<td width="34%" valign="top"></td>
+
 </tr>
 </table>
 
-<p style="color:#58606f;font-size:12px;font-style:italic;margin:16px 0 0;">Percentages are a visual representation of relative tool breadth across my projects, not measured usage data.</p>
+<p style="color:#58606f;font-size:12px;font-style:italic;margin:18px 0 0;">Percentages are a visual representation of relative tool breadth across my projects, not measured usage data.</p>
 
 </div>
 
 <br/>
 
 <!-- ============ 5. GITHUB ANALYTICS ============ -->
-<div style="background:#0D1117;border:1px solid rgba(139,53,255,0.40);border-radius:18px;padding:34px 38px;margin:0 24px;">
+<div style="background:#0D1117;border:1px solid rgba(139,53,255,0.40);border-radius:18px;padding:34px 38px;margin:0 24px;box-shadow:0 0 30px rgba(139,53,255,0.14);">
 
 <h2 style="margin:0 0 6px;font-size:26px;color:#FFFFFF;">GitHub Analytics
 <span style="display:inline-block;width:44px;height:4px;background:#8B35FF;border-radius:2px;margin-left:12px;vertical-align:middle;"></span>
@@ -190,7 +212,7 @@ I'm not interested in building demos. I'm interested in building <strong style="
 <tr>
 <td width="25%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:18px;">
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:18px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
 <span style="color:#8b949e;font-size:12px;font-weight:700;letter-spacing:1px;">TOTAL CONTRIBUTIONS</span>
 </div>
@@ -201,7 +223,7 @@ I'm not interested in building demos. I'm interested in building <strong style="
 </td>
 <td width="25%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:18px;">
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:18px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
 <span style="color:#8b949e;font-size:12px;font-weight:700;letter-spacing:1px;">TOTAL STARS</span>
 <img src="https://img.shields.io/github/stars/Keith96-boop/GGO?labelColor=0d1117&amp;color=8b35ff" alt="stars" height="18" />
@@ -213,7 +235,7 @@ I'm not interested in building demos. I'm interested in building <strong style="
 </td>
 <td width="25%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:18px;">
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:18px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
 <span style="color:#8b949e;font-size:12px;font-weight:700;letter-spacing:1px;">TOTAL FORKS</span>
 <img src="https://img.shields.io/github/forks/Keith96-boop/GGO?labelColor=0d1117&amp;color=8b35ff" alt="forks" height="18" />
@@ -225,7 +247,7 @@ I'm not interested in building demos. I'm interested in building <strong style="
 </td>
 <td width="25%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:18px;">
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:18px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
 <span style="color:#8b949e;font-size:12px;font-weight:700;letter-spacing:1px;">TOTAL COMMITS</span>
 <img src="https://img.shields.io/github/commit-activity/y/Keith96-boop/GGO?label=commits%20(year)&amp;labelColor=0d1117&amp;color=8b35ff" alt="commits" height="18" />
@@ -245,7 +267,7 @@ I'm not interested in building demos. I'm interested in building <strong style="
 <tr>
 <td width="54%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:20px;">
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:20px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
 
 <div style="color:#8b949e;font-size:12px;font-weight:700;letter-spacing:1px;margin-bottom:14px;">CONTRIBUTION ACTIVITY</div>
 
@@ -256,7 +278,7 @@ I'm not interested in building demos. I'm interested in building <strong style="
 </td>
 <td width="46%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:20px;">
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:20px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
 
 <div style="color:#8b949e;font-size:12px;font-weight:700;letter-spacing:1px;margin-bottom:14px;">CONTRIBUTION STREAK</div>
 
@@ -285,8 +307,8 @@ I'm not interested in building demos. I'm interested in building <strong style="
 
 <br/>
 
-<!-- Live stats + live streak (fallbacks that render natively on GitHub) -->
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:20px;margin-bottom:14px;">
+<!-- Live stats + live streak -->
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:20px;margin-bottom:14px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
 
 <div style="color:#8b949e;font-size:12px;font-weight:700;letter-spacing:1px;margin-bottom:14px;">LIVE GITHUB METRICS</div>
 
@@ -298,7 +320,7 @@ I'm not interested in building demos. I'm interested in building <strong style="
 
 </div>
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:20px;">
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:20px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
 
 <div style="color:#8b949e;font-size:12px;font-weight:700;letter-spacing:1px;margin-bottom:14px;">GITHUB TROPHIES</div>
 
@@ -311,7 +333,7 @@ I'm not interested in building demos. I'm interested in building <strong style="
 <br/>
 
 <!-- ============ 6. SELECTED WORK ============ -->
-<div style="background:#0D1117;border:1px solid rgba(139,53,255,0.35);border-radius:18px;padding:34px 38px;margin:0 24px;">
+<div style="background:#0D1117;border:1px solid rgba(139,53,255,0.40);border-radius:18px;padding:34px 38px;margin:0 24px;box-shadow:0 0 30px rgba(139,53,255,0.14);">
 
 <h2 style="margin:0 0 6px;font-size:26px;color:#FFFFFF;">Selected Work
 <span style="display:inline-block;width:44px;height:4px;background:#8B35FF;border-radius:2px;margin-left:12px;vertical-align:middle;"></span>
@@ -322,11 +344,11 @@ I'm not interested in building demos. I'm interested in building <strong style="
 _This block is auto-generated on every push and on a daily schedule. The first run fills in your 6 most recently pushed public repositories._
 <!-- AUTO:RECENT:END -->
 
-<table>
+<table style="width:100%;border-collapse:separate;border-spacing:14px;">
 <tr>
-<td width="33%" valign="top" align="center">
+<td width="33%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.40);border-radius:14px;padding:20px;">
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:20px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
 
 <h3 style="margin:0 0 8px;font-size:20px;color:#FFFFFF;">Zyra</h3>
 
@@ -337,9 +359,9 @@ _This block is auto-generated on every push and on a daily schedule. The first r
 </div>
 
 </td>
-<td width="33%" valign="top" align="center">
+<td width="33%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.40);border-radius:14px;padding:20px;">
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:20px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
 
 <h3 style="margin:0 0 8px;font-size:20px;color:#FFFFFF;">LYRA</h3>
 
@@ -350,9 +372,9 @@ _This block is auto-generated on every push and on a daily schedule. The first r
 </div>
 
 </td>
-<td width="33%" valign="top" align="center">
+<td width="33%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.40);border-radius:14px;padding:20px;">
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:20px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
 
 <h3 style="margin:0 0 8px;font-size:20px;color:#FFFFFF;">GhostSync</h3>
 
@@ -365,9 +387,9 @@ _This block is auto-generated on every push and on a daily schedule. The first r
 </td>
 </tr>
 <tr>
-<td width="33%" valign="top" align="center" style="padding-top:18px;">
+<td width="33%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.40);border-radius:14px;padding:20px;">
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:20px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
 
 <h3 style="margin:0 0 8px;font-size:20px;color:#FFFFFF;">Moon</h3>
 
@@ -378,9 +400,9 @@ _This block is auto-generated on every push and on a daily schedule. The first r
 </div>
 
 </td>
-<td width="33%" valign="top" align="center" style="padding-top:18px;">
+<td width="33%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.40);border-radius:14px;padding:20px;">
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:20px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
 
 <h3 style="margin:0 0 8px;font-size:20px;color:#FFFFFF;">Soostori POS</h3>
 
@@ -391,9 +413,9 @@ _This block is auto-generated on every push and on a daily schedule. The first r
 </div>
 
 </td>
-<td width="33%" valign="top" align="center" style="padding-top:18px;">
+<td width="33%" valign="top">
 
-<div style="background:#010409;border:1px solid rgba(139,53,255,0.40);border-radius:14px;padding:20px;">
+<div style="background:rgba(1,4,9,0.55);border:1px solid rgba(139,53,255,0.35);border-radius:14px;padding:20px;box-shadow:0 0 16px rgba(139,53,255,0.08);">
 
 <h3 style="margin:0 0 8px;font-size:20px;color:#FFFFFF;">Portfolio</h3>
 
@@ -412,7 +434,7 @@ _This block is auto-generated on every push and on a daily schedule. The first r
 <br/>
 
 <!-- ============ 7. CONNECT ============ -->
-<div style="background:#0D1117;border:1px solid rgba(139,53,255,0.35);border-radius:18px;padding:34px 38px;margin:0 24px;">
+<div style="background:#0D1117;border:1px solid rgba(139,53,255,0.30);border-radius:18px;padding:34px 38px;margin:0 24px;box-shadow:0 0 24px rgba(139,53,255,0.10);">
 
 <h2 style="margin:0 0 14px;font-size:26px;color:#FFFFFF;">Connect
 <span style="display:inline-block;width:44px;height:4px;background:#8B35FF;border-radius:2px;margin-left:12px;vertical-align:middle;"></span>
