@@ -1,0 +1,103 @@
+# GitHub Actions workflow: auto-update the "Recent Projects" section of the profile README.
+# Runs on every push to main and on a daily schedule, so newly-pushed repositories
+# automatically appear in the README without editing it by hand.
+
+name: Auto-update profile README projects
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 */24 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Fetch recent public repositories
+        run: |
+          REPO_NAME="${{ github.repository }}"
+          OWNER="${REPO_NAME%%/*}"
+          # Grab recently-pushed public repos, exclude the profile repo itself,
+          # and keep the 6 most recent as a compact JSON array.
+          curl -s -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/users/${OWNER}/repos?per_page=30&sort=pushed&order=desc&type=public" \
+            | jq -c "[ .[] | select(.name != \"Keith96-boop\") | .[name, description, html_url, language, stargazers_count] | .[0:6] ]" \
+            > "$GITHUB_WORKSPACE/recent_repos.json"
+          cat "$GITHUB_WORKSPACE/recent_repos.json"
+
+      - name: Generate the Recent Projects section
+        run: |
+          node - <<'EOF'
+          const fs = require('fs');
+          const repos = JSON.parse(fs.readFileSync('recent_repos.json', 'utf8'));
+          const markerStart = '<!-- AUTO:RECENT:START -->';
+          const markerEnd = '<!-- AUTO:RECENT:END -->';
+
+          function badge(text) {
+            const safe = text.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+            return `<span style="display:inline-block;padding:2px 8px;margin:2px 4px 2px 0;font-size:12px;font-weight:600;color:#89b4fa;background:#1a1e2e;border:1px solid #2a3141;border-radius:6px;">${safe}</span>`;
+          }
+
+          let rows = [];
+          for (let i = 0; i < repos.length; i += 3) {
+            const cells = repos.slice(i, i + 3).map(r => `
+<td align="center" width="33%">
+
+### ${badge(r.name)}
+
+${r.description || 'No description available.'}
+
+\`${r.language || 'N/A'}\` ${r.stargazers_count} stars
+
+</td>`).join('\n');
+            rows.push(`<tr>${cells}\n</tr>`);
+          }
+
+          const table = `
+<table>
+${rows.join('\n')}
+</table>`;
+
+          const section = [
+            markerStart,
+            '',
+            '## Recent Projects',
+            '',
+            '_Automatically generated from my most recently pushed public repositories. Updates on every push and on a daily schedule._',
+            '',
+            table,
+            '',
+            markerEnd,
+          ].join('\n');
+
+          // Insert or replace the marked block in README.md
+          let readme = fs.readFileSync('README.md', 'utf8');
+          const re = new RegExp(markerStart.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&') + '[\\s\\S]*?' + markerEnd.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&'));
+          if (re.test(readme)) {
+            readme = readme.replace(re, section);
+          } else {
+            // Append before the final closing <div align="center">, or at end of file
+            readme = readme.replace(markerStart, '').replace(markerEnd, '');
+            readme = readme.trimEnd() + '\n\n' + section + '\n';
+          }
+          fs.writeFileSync('README.md', readme);
+          EOF
+
+      - name: Commit and push changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "README.md already up to date."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: auto-update Recent Projects in README"
+            git push

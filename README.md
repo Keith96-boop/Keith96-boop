@@ -2,60 +2,40 @@
 
 # Keith Will
 
-### Creative Technologist · Product Designer · Full-Stack Developer
+**Creative Technologist · Product Designer · Full-Stack Developer**
 
-**Design it. Build it. Ship it.**
+_Imagine it → Design it → Build it → Ship it._
 
 </div>
 
+<br/>
+
 ---
 
-## About
+## About Me
 
-I'm a creative technologist based in Kenya, working at the intersection of design and software development. I take ideas from rough concepts to fully functional, visually polished digital products — handling both the interface people see and the systems running underneath.
+Hi, I'm a **Creative Technologist** and **Product Builder** based in Kenya. I work at the intersection of design and software, taking ideas from rough concepts to fully-functional, visually polished digital products.
 
 I'm not interested in building demos. I'm interested in building **real products**.
 
 ```
-role        : Creative Technologist / Product Builder
-focus       : Design, Software Development, AI, Automation
 based_in    : Kenya
+focus       : Design, Software Development, AI & Automation
 approach    : Imagine it → Design it → Build it → Improve it
 ```
 
----
+### Quick Facts
+- I take ideas and ship them — design, architecture, development, deployment
+- I like combining technologies that don't normally sit in the same field
+- I focus on real products, not demo toys
 
-## What I Do
-
-**Design**
-Website design, UI/UX, brand identity, graphic design, and motion/interaction design.
-
-**Development**
-Frontend and backend development, from interfaces to the APIs, databases, and auth systems behind them.
-
-**AI & Automation**
-AI-powered applications, prompt engineering, and automation/API integrations that connect real systems together.
-
-**Product**
-Taking a concept through design, architecture, development, and deployment — end to end.
-
----
-
-## Selected Work
-
-**Zyra** — Social media management platform for automating and streamlining publishing workflows across multiple platform integrations.
-
-**LYRA** — A persistent desktop AI companion built around an animated 3D character, voice interaction, personality, and deep integration with the user's computer.
-
-**Moon** — A technology and product ecosystem concept spanning custom hardware, software, branding, and security.
-
-**GhostSync** — A full-stack, web-based platform built around authentication, real-time communication, and a modern application architecture.
-
-**Soostori POS** — A point-of-sale system concept designed around real-world business operations and communication needs.
+<br/>
 
 ---
 
 ## Tech Stack
+
+<div align="center">
 
 **Languages & Frontend**
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
@@ -64,7 +44,7 @@ Taking a concept through design, architecture, development, and deployment — e
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
 
 **Backend & Data**
@@ -73,20 +53,85 @@ Taking a concept through design, architecture, development, and deployment — e
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
 ![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
 
-**Platforms & Tools**
+**Tools & Platforms**
 ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white)
-![M-Pesa Daraja API](https://img.shields.io/badge/M--Pesa_Daraja_API-1B8E3A?style=flat-square)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![M-Pesa Daraja](https://img.shields.io/badge/M--Pesa_Daraja-1B8E3A?style=flat-square)
 
 **Design**
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Adobe Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobe-photoshop&logoColor=white)
-![Adobe Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=adobe-illustrator&logoColor=white)
-![Adobe Premiere Pro](https://img.shields.io/badge/Premiere_Pro-9999FF?style=flat-square&logo=adobe-premiere-pro&logoColor=white)
-![OBS](https://img.shields.io/badge/OBS_Studio-302E31?style=flat-square&logo=obsstudio&logoColor=white)
+![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobe&logoColor=white)
+![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=adobe&logoColor=white)
+![Premiere Pro](https://img.shields.io/badge/Premiere_Pro-9999FF?style=flat-square&logo=adobe&logoColor=white)
+
+</div>
+
+<br/>
+
+---
+
+## Selected Work
+
+<!-- AUTO:RECENT:START -->
+_Running for the first time? This section fills itself in automatically after the first push or scheduled run._
+<!-- AUTO:RECENT:END -->
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### Zyra
+Social media management platform that automates and streamlines publishing workflows across multiple platforms.
+
+`Next.js` `Supabase` `Drizzle`
+
+</td>
+<td align="center" width="33%">
+
+### LYRA
+A persistent desktop AI companion built around an animated 3D character, voice interaction, personality, and deep computer integration.
+
+`Electron` `Three.js` `Node.js`
+
+</td>
+<td align="center" width="33%">
+
+### GhostSync
+Full-stack web platform built around authentication, real-time communication, and modern application architecture.
+
+`React` `Node.js` `SQLite`
+
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+
+### Moon
+A technology and product ecosystem concept spanning custom hardware, software, branding, and security.
+
+`Full-stack` `Branding`
+
+</td>
+<td align="center" width="33%">
+
+### Soostori POS
+A point-of-sale system concept designed around real-world business operations and communication needs.
+
+`Node.js` `M-Pesa Daraja`
+
+</td>
+<td align="center" width="33%">
+
+### Portfolio
+Personal portfolio and brand site built with modern design principles.
+
+`Next.js` `Tailwind`
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ---
 
@@ -94,12 +139,39 @@ Taking a concept through design, architecture, development, and deployment — e
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=Keith96-boop&show_icons=true&theme=default&hide_border=true&count_private=true"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Keith96-boop&layout=compact&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Keith96-boop&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Keith96-boop&layout=compact&hide_border=true&bg_color=1a1e2e" alt="Top Languages" />
 
 </div>
 
-> Replace `YOUR-GITHUB-USERNAME` above with your actual GitHub handle to activate these stats cards.
+<br/>
+
+<div align="center">
+<img src="https://streak-stats.dave.sh?username=Keith96-boop&theme=tokyonight&hide_border=true&background=1a1e2e" alt="Contribution Streak" />
+<br/><br/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Keith96-boop&theme=react-dark&background=1a1e2e&color=89b4fa" alt="Activity Graph" />
+</div>
+
+<br/>
+
+---
+
+## Open Source
+
+<table>
+<tr>
+<td align="center" width="100%">
+
+### Contributions
+Actively contributing to open-source projects through bug fixes, testing, and collaborative development.
+
+**Focus:** `Node.js` · `Express.js` · `JavaScript` · `Backend Development` · `Testing`
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ---
 
@@ -107,24 +179,43 @@ Taking a concept through design, architecture, development, and deployment — e
 
 I approach every project from two sides at once:
 
-- **Creative** — visual identity, UI/UX, interaction design, motion, branding
-- **Technical** — architecture, APIs, databases, authentication, integrations, deployment
+<table>
+<tr>
+<td width="50%">
 
-I'm curious, independent, and idea-driven. I like combining technologies that don't normally sit in the same field, and figuring out how an ambitious concept can actually be engineered into something real.
+**Creative Side**
+Visual identity, UI/UX, interaction design, motion, and branding — making the product look and feel right.
+
+</td>
+<td width="50%">
+
+**Technical Side**
+Architecture, APIs, databases, authentication, integrations, and deployment — making the product actually work.
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ---
 
-## Connect
+## Currently
+
+- Building **Zyra** and **LYRA**
+- Exploring **AI + 3D** product interactions
+- Learning to ship faster with modern tooling
+
+<br/>
+
+---
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](#)
+_Thanks for stopping by. Check out the projects — and if you want to build something real, let's talk._
 
-</div>
+<br/>
 
-<div align="center">
-<sub>Add your real links above to replace the placeholders.</sub>
+**Connect:** I'll be adding my public social links here soon. In the meantime, you can reach me through this GitHub account.
+
 </div>
