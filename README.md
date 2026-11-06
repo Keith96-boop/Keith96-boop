@@ -1,5 +1,7 @@
 <!-- Theme: white #FFFFFF / black #111 / grey #30363D -->
 
+<div style="background:#FFFFFF;min-height:100vh;color:#111111;">
+
 <!-- ============ 1. IDENTITY ============ -->
 <div align="center" style="padding:24px 0 8px;">
 
@@ -22,9 +24,9 @@ Creative Technologist &nbsp;&middot;&nbsp; Product Designer &nbsp;&middot;&nbsp;
 <br/>
 
 <!-- ============ 2. HERO BANNER ============ -->
-<div style="margin:0 24px;">
+<div style="margin:0 24px;background:#FFFFFF;">
 
-<div style="border:1px solid #30363D;border-radius:18px;overflow:hidden;box-shadow:0 0 22px rgba(0,0,0,0.10);">
+<div style="border:1px solid #30363D;border-radius:18px;overflow:hidden;box-shadow:0 0 22px rgba(0,0,0,0.10);background:#FFFFFF;">
 
 <img src="banner-anim.gif" width="100%" alt="Keith Will - Animated Banner" style="border-radius:16px;" />
 
@@ -445,4 +447,5 @@ _Thanks for stopping by. I'm building things that matter &mdash; and if you want
 
 </div>
 
-<br/>
+</div>
+
