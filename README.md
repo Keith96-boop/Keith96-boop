@@ -213,10 +213,10 @@ I'm not interested in building demos. I'm interested in building <strong style="
 
 <div style="background:#FFFFFF;border:1px solid #30363D;border-radius:14px;padding:18px;">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
-<span style="color:#6b7280;font-size:12px;font-weight:700;letter-spacing:1px;">TOTAL FORKS</span>
-<img src="https://img.shields.io/github/forks/Keith96-boop/GGO?labelColor=FFFFFF&color=111111" alt="forks" height="18" />
+<span style="color:#6b7280;font-size:12px;font-weight:700;letter-spacing:1px;">TOTAL GITHUB PROJECTS</span>
+<img src="https://img.shields.io/github/repositories/Keith96-boop?labelColor=FFFFFF&color=111111" alt="repos" height="18" />
 </div>
-<div style="color:#111111;font-size:28px;font-weight:700;">0</div>
+<div style="color:#111111;font-size:28px;font-weight:700;">4</div>
 <img src="assets/sparkline.svg" width="100%" alt="trend" />
 </div>
 
