@@ -26,13 +26,14 @@ jobs:
 
       - name: Fetch recent public repositories
         run: |
-          REPO_NAME="${{ github.repository }}"
-          OWNER="${REPO_NAME%%/*}"
+          OWNER="${{ github.repository_owner }}"
           # Keep the 6 most recently pushed public repos, excluding the profile repo.
+          # Default to an empty array so the step never writes `null`.
           curl -s -H "Accept: application/vnd.github+json" \
             "https://api.github.com/users/${OWNER}/repos?per_page=30&sort=pushed&order=desc&type=public" \
-            | jq -c "[ .[] | select(.name != \"Keith96-boop\") | .[name, description, html_url, language, stargazers_count] | .[0:6] ]" \
+            | jq -c 'if (type == "array") then ([ .[] | select(.name != "Keith96-boop") | {name, description, html_url, language, stargazers_count} ][0:6]) else [] end' \
             > "$GITHUB_WORKSPACE/recent_repos.json"
+          echo "--- recent_repos.json ---"
           cat "$GITHUB_WORKSPACE/recent_repos.json"
 
       - name: Generate the Recent Projects section
@@ -41,7 +42,10 @@ jobs:
           const fs = require('fs');
           let repos = [];
           try {
-            repos = JSON.parse(fs.readFileSync('recent_repos.json', 'utf8'));
+            const raw = JSON.parse(fs.readFileSync('recent_repos.json', 'utf8'));
+            if (Array.isArray(raw)) {
+              repos = raw;
+            }
           } catch (e) {
             console.warn('Could not parse recent_repos.json; using empty list.');
           }
@@ -53,16 +57,20 @@ jobs:
             const name = r.name || 'Untitled';
             const desc = r.description || 'No description available.';
             const lang = r.language || 'N/A';
-            const stars = r.stargazers_count;
+            const stars = (r.stargazers_count != null) ? r.stargazers_count : 0;
+            const safeName = String(name).replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            const safeDesc = String(desc).replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            const safeLang = String(lang).replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            const safeStars = String(stars).replace(/</g, '&lt;').replace(/>/g, '&gt;');
             return `<td align="center" width="33%">
 
-<div style="background:#010409;border:1px solid #30363d;border-radius:14px;padding:20px;">
+<div style="background:#FFFFFF;border:1px solid #30363d;border-radius:14px;padding:20px;">
 
-<h3 style="margin:0 0 8px;font-size:20px;color:#ffffff;">${name}</h3>
+<h3 style="margin:0 0 8px;font-size:20px;color:#111111;">${safeName}</h3>
 
-<p style="color:#c9d1d9;font-size:14px;line-height:1.6;margin:0 0 14px;">${desc}</p>
+<p style="color:#30363d;font-size:14px;line-height:1.6;margin:0 0 14px;">${safeDesc}</p>
 
-<p style="margin:0;font-size:12px;"><code style="background:#30363d;color:#ffffff;padding:3px 9px;border-radius:7px;">${lang}</code> &nbsp; &star; ${stars}</p>
+<p style="margin:0;font-size:12px;"><code style="background:#30363d;color:#ffffff;padding:3px 9px;border-radius:7px;">${safeLang}</code> &nbsp; &star; ${safeStars}</p>
 
 </div>
 
@@ -92,36 +100,39 @@ jobs:
             readme = readme.trimEnd() + '\n\n' + section + '\n';
           }
           fs.writeFileSync('README.md', readme);
+          console.log('Wrote README.md with ' + repos.length + ' recent repo(s).');
           EOF
 
       - name: Generate commit activity graph image (self-hosted, static)
         run: |
-          # Use a reliable, widely-used commit-activity service; download the PNG into
-          # the repo so the profile never depends on the service being up at view time.
+          # Use a reliable commit-activity service; download the image into the repo
+          # so the profile never depends on the service being up at view time.
           OUT="assets/commit_activity.png"
           mkdir -p assets
-          if curl -sL -o "$OUT" \
-              "https://gh-graphs.vercel.app/commit-graph?username=${{ github.repository_owner }}&theme=react-dark&color=ffffff&bg_color=010409&line=30363d"; then
-            if [ -s "$OUT" ]; then
-              echo "Wrote $OUT ($(stat -c%s "$OUT") bytes)."
-            else
-              echo "Activity service returned an empty file; leaving any existing image in place."
-            fi
+          # Try a couple of known-good hosts; stop at the first one that returns a non-empty file.
+          url1="https://gh-graphs.vercel.app/commit-graph?username=${{ github.repository_owner }}&theme=react-dark&color=111111&bg_color=FFFFFF&line=30363d"
+          url2="https://git.io/commit-graph?username=${{ github.repository_owner }}"
+          if curl -sL -o "$OUT" "$url1" && [ -s "$OUT" ]; then
+            echo "Wrote $OUT from url1 ($(stat -c%s "$OUT") bytes)."
+          elif curl -sL -o "$OUT" "$url2" && [ -s "$OUT" ]; then
+            echo "Wrote $OUT from url2 ($(stat -c%s "$OUT") bytes)."
           else
             echo "Activity service unavailable; leaving any existing image in place."
+            # Drop a zero-length marker so the commit step below is a no-op
+            rm -f "$OUT"
           fi
 
       - name: Commit and push changes
         run: |
-          if git diff --quiet README.md && ! git diff --cached --quiet assets 2>/dev/null; then
-            :
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git add assets/commit_activity.png 2>/dev/null || true
+          # Only stage the activity image if it actually exists on disk.
+          if [ -f assets/commit_activity.png ]; then
+            git add assets/commit_activity.png
+          fi
           if git diff --cached --quiet; then
-            echo "Nothing to commit."
+            echo "Nothing to commit; README is already up to date."
           else
             git commit -m "chore: auto-update Recent Projects and commit activity graph"
             git push

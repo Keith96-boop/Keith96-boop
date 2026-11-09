@@ -1,4 +1,4 @@
-<!-- Theme: white #FFFFFF / black #111 / grey #30363D -->
+﻿<!-- Theme: white #FFFFFF / black #111 / grey #30363D -->
 
 <div style="background:#FFFFFF;min-height:100vh;color:#111111;">
 
@@ -28,7 +28,7 @@ Creative Technologist &nbsp;&middot;&nbsp; Product Designer &nbsp;&middot;&nbsp;
 
 <div style="border:1px solid #30363D;border-radius:18px;overflow:hidden;box-shadow:0 0 22px rgba(0,0,0,0.10);background:#FFFFFF;">
 
-<img src="banner-anim.gif" width="100%" alt="Keith Will - Animated Banner" style="border-radius:16px;" />
+<img src="banner-anim-wb.gif" width="100%" alt="Keith Will - Animated Banner" style="border-radius:16px;" />
 
 </div>
 
