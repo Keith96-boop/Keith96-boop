@@ -95,41 +95,41 @@ I'm not interested in building demos. I'm interested in building <strong style="
 <td width="33%" valign="middle" align="right">
 
 <!-- Languages & Frontend -->
-<div style="background:#FFFFFF;border:1px solid #30363D;border-left:4px solid #111111;border-radius:14px;padding:16px 18px;margin:12px 0;box-shadow:0 0 12px rgba(0,0,0,0.08);">
+<div style="background:transparent;border:1px solid #30363D;border-left:4px solid #111111;border-radius:14px;padding:16px 18px;margin:12px 0;">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
 <strong style="color:#111111;font-size:14px;">Languages &amp; Frontend</strong>
 <span style="background:#F5F5F7;color:#111111;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">35%</span>
 </div>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="34" alt="HTML5" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="34" alt="CSS3" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="34" alt="JavaScript" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="34" alt="TypeScript" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="34" alt="React" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="34" alt="Next.js" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="28" alt="HTML5" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="28" alt="CSS3" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="28" alt="JavaScript" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="28" alt="TypeScript" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="28" alt="React" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="28" alt="Next.js" />
 </div>
 
 <!-- Backend & Data -->
-<div style="background:#FFFFFF;border:1px solid #30363D;border-left:4px solid #111111;border-radius:14px;padding:16px 18px;margin:12px 0;box-shadow:0 0 12px rgba(0,0,0,0.08);">
+<div style="background:transparent;border:1px solid #30363D;border-left:4px solid #111111;border-radius:14px;padding:16px 18px;margin:12px 0;">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
 <strong style="color:#111111;font-size:14px;">Backend &amp; Data</strong>
 <span style="background:#F5F5F7;color:#111111;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">30%</span>
 </div>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="34" alt="Node.js" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="34" alt="Express" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" width="34" alt="Supabase" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" width="34" alt="SQLite" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="28" alt="Node.js" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="28" alt="Express" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" width="28" alt="Supabase" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" width="28" alt="SQLite" />
 </div>
 
 <!-- Tools & Platforms -->
-<div style="background:#FFFFFF;border:1px solid #30363D;border-left:4px solid #111111;border-radius:14px;padding:16px 18px;margin:12px 0;box-shadow:0 0 12px rgba(0,0,0,0.08);">
+<div style="background:transparent;border:1px solid #30363D;border-left:4px solid #111111;border-radius:14px;padding:16px 18px;margin:12px 0;">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
 <strong style="color:#111111;font-size:14px;">Tools &amp; Platforms</strong>
 <span style="background:#F5F5F7;color:#111111;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">20%</span>
 </div>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg" width="34" alt="Electron" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" width="34" alt="Vercel" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="34" alt="Git" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="34" alt="GitHub" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg" width="28" alt="Electron" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" width="28" alt="Vercel" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="28" alt="Git" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="28" alt="GitHub" />
 </div>
 
 </td>
@@ -143,26 +143,26 @@ I'm not interested in building demos. I'm interested in building <strong style="
 <td width="33%" valign="middle" align="left">
 
 <!-- Design -->
-<div style="background:#FFFFFF;border:1px solid #30363D;border-left:4px solid #111111;border-radius:14px;padding:16px 18px;margin:12px 0;box-shadow:0 0 12px rgba(0,0,0,0.08);">
+<div style="background:transparent;border:1px solid #30363D;border-left:4px solid #111111;border-radius:14px;padding:16px 18px;margin:12px 0;">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
 <strong style="color:#111111;font-size:14px;">Design</strong>
 <span style="background:#F5F5F7;color:#111111;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">10%</span>
 </div>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="34" alt="Figma" />
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/adobephotoshop.svg?color=31A8FF" width="34" alt="Photoshop" />
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/adobeillustrator.svg?color=FF9A00" width="34" alt="Illustrator" />
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/adobepremierepro.svg?color=9999FF" width="34" alt="Premiere Pro" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="28" alt="Figma" />
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/adobephotoshop.svg?color=31A8FF" width="28" alt="Photoshop" />
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/adobeillustrator.svg?color=FF9A00" width="28" alt="Illustrator" />
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/adobepremierepro.svg?color=9999FF" width="28" alt="Premiere Pro" />
 </div>
 
 <!-- Others -->
-<div style="background:#FFFFFF;border:1px solid #30363D;border-left:4px solid #111111;border-radius:14px;padding:16px 18px;margin:12px 0;box-shadow:0 0 12px rgba(0,0,0,0.08);">
+<div style="background:transparent;border:1px solid #30363D;border-left:4px solid #111111;border-radius:14px;padding:16px 18px;margin:12px 0;">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
 <strong style="color:#111111;font-size:14px;">Others</strong>
 <span style="background:#F5F5F7;color:#111111;font-size:12px;font-weight:700;padding:3px 10px;border-radius:8px;">5%</span>
 </div>
-<img src="assets/obs.svg" width="34" alt="OBS" />
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cloudinary.svg?color=3448C5" width="34" alt="Cloudinary" />
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/drizzle.svg?color=3A49FC" width="34" alt="Drizzle" />
+<img src="assets/obs.svg" width="28" alt="OBS" />
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cloudinary.svg?color=3448C5" width="28" alt="Cloudinary" />
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/drizzle.svg?color=3A49FC" width="28" alt="Drizzle" />
 </div>
 
 </td>
