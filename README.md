@@ -283,24 +283,22 @@ I'm not interested in building demos. I'm interested in building <strong style="
 
 <br/>
 
-<!-- Live stats + live streak -->
-<div style="background:#FFFFFF;border:1px solid #30363D;border-radius:14px;padding:20px;margin-bottom:14px;">
+<!-- Live streak + fast badges (only reliable services; heavy/unreliable ones dropped) -->
+<div style="background:#FFFFFF;border:1px solid #30363D;border-radius:14px;padding:20px;">
 
 <div style="color:#6b7280;font-size:12px;font-weight:700;letter-spacing:1px;margin-bottom:14px;">LIVE GITHUB METRICS</div>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Keith96-boop&show_icons=true&title_color=111111&icon_color=111111&text_color=30363D&bg_color=FFFFFF&hide_border=true&count_private=true" alt="GitHub Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?username=Keith96-boop&theme=graywhite&hide_border=true&background=FFFFFF&border=30363D&stroke=111111&title=111111&current_streak=111111&side=left&date=6b7280" alt="Contribution Streak" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?username=Keith96-boop&theme=graywhite&hide_border=true&background=FFFFFF&border=30363D&stroke=111111&title=111111&current_streak=111111&side=left&date=6b7280" alt="Contribution Streak" />
+<div style="display:flex;flex-wrap:wrap;gap:10px;">
+
+<img src="https://img.shields.io/github/repositories/Keith96-boop?label=repositories&labelColor=FFFFFF&color=111111" alt="repositories" height="20" />
+<img src="https://img.shields.io/github/stars/Keith96-boop/GGO?label=stars&labelColor=FFFFFF&color=111111" alt="stars" height="20" />
+<img src="https://img.shields.io/github/commit-activity/y/Keith96-boop/GGO?label=commits%20(year)&amp;labelColor=FFFFFF&amp;color=111111" alt="commits" height="20" />
 
 </div>
-
-<div style="background:#FFFFFF;border:1px solid #30363D;border-radius:14px;padding:20px;">
-
-<div style="color:#6b7280;font-size:12px;font-weight:700;letter-spacing:1px;margin-bottom:14px;">GITHUB TROPHIES</div>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Keith96-boop&theme=flat&margin-top=16&margin-bottom=16&margin=8" alt="GitHub Trophies" />
 
 </div>
 
